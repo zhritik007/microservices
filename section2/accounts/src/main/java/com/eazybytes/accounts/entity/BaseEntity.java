@@ -1,4 +1,4 @@
-package entity;
+package com.eazybytes.accounts.entity;
 
 
 import jakarta.persistence.Column;

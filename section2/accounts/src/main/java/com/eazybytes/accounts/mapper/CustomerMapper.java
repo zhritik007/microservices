@@ -1,9 +1,7 @@
-package mapper;
+package com.eazybytes.accounts.mapper;
 
-import dto.AccountsDto;
-import dto.CustomerDto;
-import entity.Accounts;
-import entity.Customer;
+import com.eazybytes.accounts.dto.CustomerDto;
+import com.eazybytes.accounts.entity.Customer;
 
 public class CustomerMapper {
     public static CustomerDto mapToCustomerDto(Customer customer, CustomerDto customerDto){
